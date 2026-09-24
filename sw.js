@@ -11,7 +11,7 @@
  * Novo: resposta REDIRECIONADA não é guardada — o Netlify redireciona index.html → /, e servir um
  * redirect do cache numa navegação quebra a página.
  */
-var VERSAO = 'dt-9e892c35';
+var VERSAO = 'dt-29b72da2';
 var ESSENCIAIS = ['./', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-512-maskable.png', './icon-180.png'];
 
 self.addEventListener('install', function (e) {
